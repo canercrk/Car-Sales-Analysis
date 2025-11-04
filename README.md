@@ -35,7 +35,7 @@ Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ü
 
 Tüm detay raporları çapraz analiz edildiğinde, şirketin net bir "başarı formülü" ve "başarısızlık nedeni" ortaya çıkmıştır:
 
-**Başarının Formülü:** Yüksek ciro, yüksek performanslı temsilcilerin (CANBERK, MURAT), yüksek performanslı bölgelerde (West, NorthWest), yüksek performanslı ürünleri (CAR1, CAR5) satmasıyla elde edilmiştir. CANBERK'in 9,6M $'lık cirosunun arkasındaki itici güç, West bölgesinde CAR1 (0,64M $) ve CAR5 (0,65M $) ürünlerine odaklanmasıdır.
+**Başarının Formülü:** Yüksek ciro, yüksek performanslı temsilcilerin (CANBERK, MURAT), yüksek performanslı bölgelerde (West, NorthWest), yüksek performanslı ürünleri (CAR1, CAR5) satmasıyla elde edilmiştir. CANBERK'in 9,6M $ olan cirosunun arkasındaki itici güç, West bölgesinde CAR1 (0,64M $) ve CAR5 (0,65M $) ürünlerine odaklanmasıdır.
 
 **Düşük Performansın Teşhisi:** Düşük performanslı temsilcilerin (örn: GÜLAY) raporları incelendiğinde, sorunun "odaksızlık" olduğu görülmüştür. GÜLAY'ın portföyü, başarılı temsilcilerin aksine, hiçbir ürün veya bölgede uzmanlaşmamış; tüm kategorilere düşük hacimlerde dağılmıştır. Bu temsilciler, şirketin "kazanan formülünü" uygulamamaktadır.
 
