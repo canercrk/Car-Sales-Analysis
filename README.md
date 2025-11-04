@@ -1,2 +1,59 @@
-# Car-Sales-Report
-A comprehensive analysis of multi-year regional sales data to identify key growth drivers and performance bottlenecks. This project uses sales, product, and regional data to provide actionable insights for business strategy, risk mitigation, and performance improvement. Includes executive summaries and strategic recommendations.
+# 3 Yıllık Bölgesel Satış Büyüme Analizi
+
+## 1. Arka Plan ve Genel Bakış
+
+Bu analiz projesi, şirketin son üç yıllık (2020-2022) satış performansını incelemektedir. 2020 ve 2021 yıllarındaki 6,9 Milyon $'lık durağan cironun ardından, 2022'de %146'lık ani ve açıklanmamış bir büyümeyle 17,0 Milyon $'a ulaşılmıştır.
+
+**İş Hedefi:** 2022'deki bu olağanüstü büyümenin kök nedenlerini teşhis etmek; başarının ana itici güçlerini (bölge, temsilci, ürün) izole etmek; düşük performanslı alanları belirlemek ve 2023-2024 dönemi için sürdürülebilir, ölçeklenebilir bir büyüme stratejisi oluşturmak üzere eyleme geçirilebilir, veriye dayalı tavsiyeler sunmaktır.
+
+## 2. Veri Yapısı
+
+Analiz, 3 yıllık (2020-2022) dönemi kapsayan 17 adet toplu (aggregated) satış raporu üzerinden yürütülmüştür. Veri modeli, çok boyutlu analize izin veren bir "Yıldız Şeması" (Star Schema) yapısını yansıtmaktadır:
+
+**Ana Tablo (Fact Table):** FactSales (Toplam Satış $, İşlem Sayısı gibi metrikleri içerir).
+
+**Boyut Tabloları (Dimension Tables):**
+- **DimTime:** Yıl (2020, 2021, 2022) ve Ay bazında kırılımlar.
+- **DimRegion:** 5 ana satış bölgesi (West, NorthWest, SouthWest, East, MidWest).
+- **DimSalesReps:** 5 satış temsilcisi (CANBERK, MURAT, MİRAÇ, SUNA, GÜLAY).
+- **DimProduct:** 7 ürün kategorisi (CAR1, CAR2, ..., CAR7).
+
+Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ürünle ilişkilendirilerek performansın detaylı bir şekilde dilimlenmesine (slicing) olanak tanımıştır.
+
+**ERD YAPISI :**
+
+## 3. Yönetici Özeti
+
+**Büyüme Odaklıdır, Yaygın Değildir:** 2022'deki %146'lık ciro artışı, şirketin tamamına yayılan organik bir başarı değildir. Büyüme, spesifik olarak 2022'nin 4. Çeyreği'nde (Kasım: 4,1M$, Aralık: 4,2M$) yaşanan ani bir patlamadan kaynaklanmaktadır.
+
+**"Kazanan" Ürünler Domine Etmektedir:** Toplam 3 yıllık cironun (30,7M$) %50'si sadece iki adet üründen gelmektedir: CAR1 (7,7M $) ve CAR5 (7,7M $).
+
+**Performans Temsilcilerde Yoğunlaşmıştır:** Toplam cironun %53'ü sadece iki satış temsilcisi tarafından üretilmiştir: CANBERK (9,6M $) ve MURAT (6,6M $).
+
+**Yüksek Bağımlılık Riski ve Durağanlık:** Bu durum, cironun %31'inin tek bir kişiye (CANBERK) ve %50'sinin iki ürüne bağlı olması nedeniyle yüksek bir operasyonel risk yaratmaktadır. Eş zamanlı olarak, East ve MidWest bölgeleri 2022'deki bu patlamadan hiç faydalanamamış ve GÜLAY (3,9M $) gibi temsilciler liderlerin çok altında kalmıştır.
+
+## 4. Derinlemesine Bakış
+
+Tüm detay raporları çapraz analiz edildiğinde, şirketin net bir "başarı formülü" ve "başarısızlık nedeni" ortaya çıkmıştır:
+
+**Başarının Formülü:** Yüksek ciro, yüksek performanslı temsilcilerin (CANBERK, MURAT), yüksek performanslı bölgelerde (West, NorthWest), yüksek performanslı ürünleri (CAR1, CAR5) satmasıyla elde edilmiştir. CANBERK'in 9,6M $'lık cirosunun arkasındaki itici güç, West bölgesinde CAR1 (0,64M $) ve CAR5 (0,65M $) ürünlerine odaklanmasıdır.
+
+**Düşük Performansın Teşhisi:** Düşük performanslı temsilcilerin (örn: GÜLAY) raporları incelendiğinde, sorunun "odaksızlık" olduğu görülmüştür. GÜLAY'ın portföyü, başarılı temsilcilerin aksine, hiçbir ürün veya bölgede uzmanlaşmamış; tüm kategorilere düşük hacimlerde dağılmıştır. Bu temsilciler, şirketin "kazanan formülünü" uygulamamaktadır.
+
+**Kaçırılan Fırsat:** East ve MidWest bölgelerinin 2020-2021 seviyelerinde kalması, bu bölgelerde "başarı formülünün" ya bilinmediğini ya da uygulanmadığını göstermektedir.
+
+## 5. Tavsiyeler
+
+Analiz sonuçlarına dayanarak, 2023-2024 dönemi için büyümenin sürdürülebilir kılınması ve riskin azaltılması amacıyla aşağıdaki 3 somut eylem önerilmektedir:
+
+**Riski Azaltın ve Başarıyı Kurumsallaştırın (Acil):**
+
+CANBERK'in %31'lik ciro bağımlılığı acil bir risktir. CANBERK'in West bölgesinde CAR1/CAR5 için kullandığı satış stratejisi, müşterileri ve metodolojisi derhal belgelenmeli ve diğer üst düzey temsilcilere (MURAT, MİRAÇ) aktarılarak bilgi kurumsallaştırılmalı ve risk dağıtılmalıdır.
+
+**Düşük Performansı İyileştirin ve Başarıyı Kopyalayın (Orta Vade):**
+
+GÜLAY ve SUNA için, dağınık portföy yönetimi yerine, kanıtlanmış "başarı formülüne" odaklanan bir "Performans İyileştirme Planı" hazırlanmalıdır. Bu temsilcilere spesifik olarak CAR1/CAR5 ürünlerini West/NorthWest bölgelerinde satma hedefleri verilmelidir.
+
+**Stratejik Nedeni Araştırın (Stratejik):**
+
+"Neden sadece CAR1 ve CAR5? Neden özellikle West Bölgesi?" sorularının cevabı için stratejik bir saha ve müşteri araştırması yapılmalıdır. Bu iki ürün birbiriyle ilişkili mi (bundle)? Bu bölgede yeni bir müşteri segmenti mi keşfedildi? Bu soruların cevabı, bu başarının tesadüfi olup olmadığını veya ölçeklenebilir bir büyüme stratejisinin temelini oluşturup oluşturmadığını belirleyecektir.
