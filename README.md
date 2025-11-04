@@ -4,7 +4,7 @@
 
 Bu analiz projesi, şirketin son üç yıllık (2020-2022) satış performansını incelemektedir. 2020 ve 2021 yıllarındaki 6,9 Milyon $ seviyelerinde ki durağan cironun ardından, 2022 yılında %146 olan ani ve açıklanmamış bir büyümeyle 17,0 Milyon $ seviyesine ulaşılmıştır.
 
-**İş Hedefi:** 2022'deki bu olağanüstü büyümenin kök nedenlerini teşhis etmek; başarının ana itici güçlerini (bölge, temsilci, ürün) izole etmek; düşük performanslı alanları belirlemek ve 2023-2024 dönemi için sürdürülebilir, ölçeklenebilir bir büyüme stratejisi oluşturmak üzere eyleme geçirilebilir, veriye dayalı tavsiyeler sunmaktır.
+**İş Hedefi:** 2022'deki bu olağanüstü büyümenin kök nedenlerini teşhis etmek; başarının ana itici güçlerini (bölge, temsilci, ürün) izole etmek; düşük performanslı alanları belirlemek ve sonraki dönemler için sürdürülebilir, ölçeklenebilir bir büyüme stratejisi oluşturmak üzere eyleme geçirilebilir, veriye dayalı tavsiyeler sunmaktır.
 
 ## Veri Yapısı
 
@@ -43,7 +43,7 @@ Tüm detay raporları çapraz analiz edildiğinde, şirketin net bir "başarı f
 
 ## Tavsiyeler
 
-Analiz sonuçlarına dayanarak, 2023-2024 dönemi için büyümenin sürdürülebilir kılınması ve riskin azaltılması amacıyla aşağıdaki 3 somut eylem önerilmektedir:
+Analiz sonuçlarına dayanarak, büyümenin sürdürülebilir kılınması ve riskin azaltılması amacıyla aşağıdaki 3 somut eylem önerilmektedir:
 
 **Riski Azaltın ve Başarıyı Kurumsallaştırın (Acil):**
 
