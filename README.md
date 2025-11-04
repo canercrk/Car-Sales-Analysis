@@ -13,10 +13,10 @@ Analiz, 3 yıllık (2020-2022) dönemi kapsayan 17 adet toplu (aggregated) satı
 **Ana Tablo (Fact Table):** FactSales (Toplam Satış $, İşlem Sayısı gibi metrikleri içerir).
 
 **Boyut Tabloları (Dimension Tables):**
-- **DimTime:** Yıl (2020, 2021, 2022) ve Ay bazında kırılımlar.
-- **DimRegion:** 5 ana satış bölgesi (West, NorthWest, SouthWest, East, MidWest).
-- **DimSalesReps:** 5 satış temsilcisi (CANBERK, MURAT, MİRAÇ, SUNA, GÜLAY).
-- **DimProduct:** 7 ürün kategorisi (CAR1, CAR2, ..., CAR7).
+- **dTime:** Yıl (2020, 2021, 2022) ve Ay bazında kırılımlar.
+- **dRegion:** 5 ana satış bölgesi (West, NorthWest, SouthWest, East, MidWest).
+- **dSalesReps:** 5 satış temsilcisi (CANBERK, MURAT, MİRAÇ, SUNA, GÜLAY).
+- **dProduct:** 7 ürün kategorisi (CAR1, CAR2, ..., CAR7).
 
 Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ürünle ilişkilendirilerek performansın detaylı bir şekilde dilimlenmesine (slicing) olanak tanımıştır.
 <img width="1082" height="482" alt="Image" src="https://github.com/user-attachments/assets/6288d00f-1352-4e84-8175-66cfbc0c516b" />
