@@ -25,9 +25,9 @@ Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ü
 
 **Büyüme Odaklıdır, Yaygın Değildir:** 2022'deki %146'lık ciro artışı, şirketin tamamına yayılan organik bir başarı değildir. Büyüme, spesifik olarak 2022'nin 4. Çeyreği'nde (Kasım: 4,1M$, Aralık: 4,2M$) yaşanan ani bir patlamadan kaynaklanmaktadır.
 
-**"Kazanan" Ürünler Domine Etmektedir:** Toplam 3 yıllık cironun (30,7M$) %50'si sadece iki adet üründen gelmektedir: CAR1 (7,7M $) ve CAR5 (7,7M $).
+**"Kazanan" Ürünler Domine Etmektedir:** Toplam 3 yıllık cironun (30,7M$) %50'si sadece iki adet üründen gelmektedir: CAR1 (7,7M$) ve CAR5 (7,7M$).
 
-**Performans Temsilcilerde Yoğunlaşmıştır:** Toplam cironun %53'ü sadece iki satış temsilcisi tarafından üretilmiştir: CANBERK (9,6M $) ve MURAT (6,6M $).
+**Performans Temsilcilerde Yoğunlaşmıştır:** Toplam cironun %53'ü sadece iki satış temsilcisi tarafından üretilmiştir: CANBERK (9,6M$) ve MURAT (6,6M$).
 
 **Yüksek Bağımlılık Riski ve Durağanlık:** Bu durum, cironun %31'inin tek bir kişiye (CANBERK) ve %50'sinin iki ürüne bağlı olması nedeniyle yüksek bir operasyonel risk yaratmaktadır. Eş zamanlı olarak, East ve MidWest bölgeleri 2022'deki bu patlamadan hiç faydalanamamış ve GÜLAY (3,9M $) gibi temsilciler liderlerin çok altında kalmıştır.
 
@@ -35,7 +35,7 @@ Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ü
 
 Tüm detay raporları çapraz analiz edildiğinde, şirketin net bir "başarı formülü" ve "başarısızlık nedeni" ortaya çıkmıştır:
 
-**Başarının Formülü:** Yüksek ciro, yüksek performanslı temsilcilerin (CANBERK, MURAT), yüksek performanslı bölgelerde (West, NorthWest), yüksek performanslı ürünleri (CAR1, CAR5) satmasıyla elde edilmiştir. CANBERK'in 9,6M $ olan cirosunun arkasındaki itici güç, West bölgesinde CAR1 (0,64M $) ve CAR5 (0,65M $) ürünlerine odaklanmasıdır.
+**Başarının Formülü:** Yüksek ciro, yüksek performanslı temsilcilerin (CANBERK, MURAT), yüksek performanslı bölgelerde (West, NorthWest), yüksek performanslı ürünleri (CAR1, CAR5) satmasıyla elde edilmiştir. CANBERK'in 9,6M $ olan cirosunun arkasındaki itici güç, West bölgesinde CAR1 (0,64M$) ve CAR5 (0,65M$) ürünlerine odaklanmasıdır.
 
 **Düşük Performansın Teşhisi:** Düşük performanslı temsilcilerin (örn: GÜLAY) raporları incelendiğinde, sorunun "odaksızlık" olduğu görülmüştür. GÜLAY'ın portföyü, başarılı temsilcilerin aksine, hiçbir ürün veya bölgede uzmanlaşmamış; tüm kategorilere düşük hacimlerde dağılmıştır. Bu temsilciler, şirketin "kazanan formülünü" uygulamamaktadır.
 
