@@ -8,7 +8,7 @@ Bu analiz projesi, şirketin son üç yıllık (2020-2022) satış performansın
 
 ## Veri Yapısı
 
-Analiz, 3 yıllık (2020-2022) dönemi kapsayan 17 adet toplu (aggregated) satış raporu üzerinden yürütülmüştür. Veri modeli, çok boyutlu analize izin veren bir "Yıldız Şeması" (Star Schema) yapısını yansıtmaktadır:
+Analiz, 3 yıllık (2020-2022) dönemi kapsayan satış raporu üzerinden yürütülmüştür. Veri modeli, çok boyutlu analize izin veren bir "Yıldız Şeması" (Star Schema) yapısını yansıtmaktadır:
 
 **Ana Tablo (Fact Table):** FactSales (Toplam Satış $, İşlem Sayısı gibi metrikleri içerir).
 
