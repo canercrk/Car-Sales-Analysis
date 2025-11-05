@@ -30,7 +30,7 @@ Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ü
 **Performans Temsilcilerde Yoğunlaşmıştır:** Toplam cironun %53'ü sadece iki satış temsilcisi tarafından üretilmiştir: CANBERK (9,6M$) ve MURAT (6,6M$).
 
 **Yüksek Bağımlılık Riski ve Durağanlık:** Bu durum, cironun %31'inin tek bir kişiye (CANBERK) ve %50'sinin iki ürüne bağlı olması nedeniyle yüksek bir operasyonel risk yaratmaktadır. Eş zamanlı olarak, East ve MidWest bölgeleri 2022'deki bu patlamadan hiç faydalanamamış ve GÜLAY (3,9M $) gibi temsilciler liderlerin çok altında kalmıştır.
-![Image](https://github.com/user-attachments/assets/5ae62811-f970-43de-ae24-ec955e50d6aa)
+![Image](https://github.com/user-attachments/assets/153055dd-a9cb-4f5b-9d0b-5951c607e22b)
 
 ![Image](https://github.com/user-attachments/assets/be785cd5-2b3e-4869-a31d-6ff31da175fa)
 
